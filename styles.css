@@ -59,16 +59,27 @@ section {
     background-attachment: fixed; /*배경 고정*/
 
     display: flex; /*flex 박스 사용*/
-    align-items: center; 
+    align-items: center;
     justify-content: center; /*텍스트 중앙*/
 }
 
-.home h1 {
+.home str {
+    line-height: 8rem
+}
+
+.home str h1 {
     color: var(--white); /*변수사용*/
     font-size: 6rem; 
     text-align: center;
     letter-spacing: 0.2rem;
 }
+.home str p {
+    color: var(--gray); /*변수사용*/
+    font-size : 3rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+
 /*Home*/
 
 /*Header*/
@@ -96,7 +107,7 @@ section {
 }
 
 .header .navbar{
-    display: flex;}
+    display: fix;}
 
 .header .navbar a{
     font-size: 20px;
@@ -139,6 +150,7 @@ section {
     letter-spacing: 0.1rem;
     color: var(--gray);
     text-overflow: none;
+    text-transform: none;
 }
 /*introduction*/
 
@@ -363,6 +375,7 @@ section {
 .contact .box-container .box .form-group span {
     font-size: 2rem;
     margin-left: 1rem;
+    text-transform: none
 }
 
 .contact .box-container .box .form-group {
